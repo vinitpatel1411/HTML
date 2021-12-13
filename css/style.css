@@ -491,3 +491,187 @@ nav ul li a:hover{
 	margin-left: 20px;
 }
 /*footer end*/
+
+/*FAQ*/
+.faq_nav_bg{
+	background-color: #737381;
+}
+
+.faq_active{
+	background-color: rgba(0, 96, 114, 0.6);
+	border-radius: 27px;
+	border: 1px solid #FFFFFF;
+	color: #fff !important;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.faq_active:hover{
+	background-color: white;
+	color: #006072!important ;
+}
+.faq_img{
+	background-image: url('../asset/faq-banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 370px;
+	height: 100%;
+}
+.faq_title h1{
+	font-size: 39.5px;
+	font-weight: 500;
+	color: #4F4F4F;
+	margin-top: 32px;
+}
+
+h4{
+	text-align: center;
+	font-size: 40px;
+	max-width: 170px;
+	margin: 100px auto;
+	position: relative;
+}
+
+h4:before{
+	content: "";
+	width: 70px;
+	height: 2px;
+	display: block;
+	background-color: #CCCCCC;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+h4:after{
+	content: "";
+	width: 70px;
+	height: 2px;
+	display: block;
+	background-color: #CCCCCC;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.faq_desc{
+	color: #646464;
+	font-size: 18px;
+	font-weight: 400;
+	height: 48px;
+	font-family: "Roboto",sans-serif;
+}
+
+
+.faq-btn {
+	width: 946px;
+	height: 166px;
+}
+.faq-pilicy p {
+	font-size: 14px;
+	padding: 20px 0px;
+	margin: 0px;
+	color: #9ba0a3;
+}
+.footer-separator {
+	height: 1px;
+	margin: 1rem 0;
+	background-color: #424242;
+	border: 0;
+	opacity: 1;
+}
+.accordion-faq {
+	max-width: 946px;
+	margin: 36px auto 60px;
+}
+
+.accordion-faq .nav-tabs {
+	border: none;
+}
+
+.accordion-faq .nav-tabs .nav-item {
+	width: 50%;
+	border-bottom: 4px solid #1d7a8c;
+	font-family: "Roboto",sans-serif;
+	font-weight: 500;
+}
+
+.accordion-faq .nav-tabs .nav-item .nav-link {
+	margin: auto;
+	font-size: 24px;
+	line-height: 42px;
+	outline: none;
+	border-radius: 0;
+	color: #646464;
+	text-transform: uppercase;
+}
+
+.accordion-faq .nav-tabs .nav-item .active{
+	border: none;
+	text-align: center;
+	width: 100%;
+	color: white;
+	border: 2px solid #1d7a8c;
+	background-color: #1d7a8c;
+}
+
+.accordion-faq .accordion {
+	margin-top: 48px;
+}
+
+.accordion-faq .accordion .accordion_item {
+	margin-bottom: 44px;
+}
+
+.accordion-faq .accordion .accordion_btn {
+	position: relative;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #646464;
+	margin-left: 25px;
+	max-width: fit-content;
+	font-family: "Roboto",sans-serif;
+}
+
+.accordion-faq .accordion .accordion-body p {
+	margin: 0;
+}
+
+.accordion-faq .accordion .accordion-body {
+	font-size: 16px;
+	max-width: 894px;
+	margin: 22px auto 0;
+	padding: 0;
+	line-height: 24px;
+	color: #646464;
+	font-weight: normal;
+}
+
+.accordion-faq .accordion .accordion_btn::before {
+	content: "";
+	background-image: url(../asset/down-arrow.png);
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: -28px;
+	top: -2px;
+}
+
+.accordion-faq .accordion .accordion_btn.collapsed::before {
+	background-image: url(../asset/vector-smart-object-copy.png);
+}
+.faq-policy p {
+	font-size: 14px;
+	padding: 10px 0px;
+	margin: 0px;
+	color: #9ba0a3;
+}
+.footer-separator {
+	height: 1px;
+	margin: 1rem 0;
+	background-color: #424242;
+	border: 0;
+	opacity: 1;
+}
+/*End of FAQ*/
