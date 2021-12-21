@@ -2,6 +2,22 @@
 body{
 	font-family: "Roboto",sans-serif;
 }
+::-webkit-input-placeholder {
+  color: #A0A0A0 !important;
+  font-size: 16px!important;
+  font-weight: 400!important;
+}
+
+:-ms-input-placeholder {
+  color: #A0A0A0 !important;
+  font-size: 16px!important;
+  font-weight: 400!important;
+}
+::placeholder {
+	color: #A0A0A0 !important;
+  font-size: 16px!important;
+  font-weight: 400!important;
+}
 .nav-btn:hover{
 	background-color: rgba(0, 96, 114, 0.6);
 }
@@ -675,3 +691,101 @@ h4:after{
 	opacity: 1;
 }
 /*End of FAQ*/
+
+/*----media queries---*/
+
+@media screen and (max-width: 768px) {
+	div.arrow {
+		display: none;
+	}
+}
+@media screen and (max-width: 991px) {
+	.about-nav li {
+		margin: 15px;
+	}
+	.pro-pane-left {
+		text-align: center;
+	}
+	.pro-pane-right {
+		text-align: center;
+	}
+	.prices_img{
+		display: none;
+	}
+	.faq_title{
+		margin-top: 90px;
+	}
+	.contact_img{
+		display: none;
+	}
+	.site-footer{
+		position: sticky;
+	}
+}
+@media screen and (min-width: 992px) {
+	.pro-pane-left {
+		text-align: end;
+	}
+	.pro-pane-right {
+		text-align: start;
+	}
+}
+@media screen and (max-width: 970px){
+	.accordion-faq .accordion {
+	margin-top: 48px;
+	margin-left: 40px;
+}
+
+.accordion-faq .accordion .accordion_item {
+	margin-bottom: 44px;
+	margin-left: 40px;
+}
+}
+@media screen and  (max-width: 991px){
+
+	div ul .nav-item{
+		border: none;
+		margin: 10px auto;
+		background-color: transparent;
+		font-size: 22px;
+		font-weight: 500;
+	}
+	div ul .nav-item:hover{
+		background-color: white;
+		border-radius: 30px;
+		color: #4F4F4F !important;
+		transition: all 0.3s ease;
+	}
+	.home_nav_bg{
+		background-color: #73706C;
+	}
+	.howitwork_section{
+
+		justify-content: center;
+		align-items: center;
+		margin: 10px 30px;
+	}
+	.howitwork_section #hiw_row1,#hiw_row3{
+		flex-wrap: wrap-reverse;
+	}
+	.vertical_line{
+		display: none;
+	}
+	.notification{
+		margin: 10px auto;
+		padding-right: 20px;
+		background-color: transparent;
+		font-size: 22px;
+		font-weight: 500;
+	}
+	.sp_user{
+		margin: 10px auto;
+		background-color: transparent;
+	}
+}
+@media screen and (max-width:1440px) {
+    .news_letter .scroll-top { left: 20px; }
+    .news_letter .message-boat { right: 20px; }
+}
+
+/*----media queries---*/
