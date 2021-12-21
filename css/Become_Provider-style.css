@@ -115,3 +115,9 @@
 .arrow1:hover{
 	transform: translate(10px);
 }
+
+.round-img{
+	width: 320px;
+	height: 320px;
+	clip-path:circle();
+}
