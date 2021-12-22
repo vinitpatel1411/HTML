@@ -694,6 +694,7 @@ h4:after{
 
 /*----media queries---*/
 
+
 @media (max-width: 768px) {
 	div.arrow {
 		display: none;
@@ -706,6 +707,28 @@ h4:after{
 	.sp_detail .col-md-2{
 		width: auto;
 		text-align: center;
+	}
+	.sp_detail .col-md-3{
+		width: auto;
+		padding-right: 10px;
+	}
+	.sp_detail .col-md-3 #cap{
+		display: none;
+	}
+	.sp_detail .col-md-7{
+		width: auto;
+	}
+	.sp_detail #export_end{
+		margin-left: auto;
+	}
+	.sp_detail .sh_title{
+		margin-left: 30px;
+	}
+	.sh_cap_border{
+		display: none;
+	}
+	.sp_detail .sp_details .col-sm-9{
+		width: auto;
 	}
 	.sp_detail .col-md-4{
 		width: auto;
@@ -846,6 +869,7 @@ h4:after{
 		width: 100%;
 		justify-content: center;
 		text-align: center;
+		margin: 0px;
 	}
 
 }
@@ -872,6 +896,9 @@ h4:after{
 		width: 60px;
 		border: none;
 		font-size: 12px;
+	}
+	.sh_payment{
+		font-size: 18px;
 	}
 }
 @media screen and (max-width:1440px) {
